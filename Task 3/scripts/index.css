@@ -1,0 +1,31 @@
+html{
+    font-family: Arial;
+    padding: 0 25px;
+}
+.center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.dotted-underline {
+    text-decoration: underline dotted;
+}
+.redbg{
+    color: brown;
+    background-color:rgb(196, 196, 196);
+}
+.red{
+    color: brown;
+}
+.italic
+{
+    font-style: italic;
+}
+.lightgrey{
+    background-color:rgb(230, 230, 230);
+}
+.grenbg{
+    color: rgb(36, 128, 120);
+    background-color:rgb(230, 230, 230);
+}

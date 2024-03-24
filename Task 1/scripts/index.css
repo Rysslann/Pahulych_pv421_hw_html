@@ -1,0 +1,19 @@
+body{
+    font-family:Arial;
+}
+.header{
+    text-align: center;
+    color: #440061 ;
+    
+}
+h1{
+    font: weight 800;
+}
+h4{
+    color: #7c7c7c;
+    font: weight 800;
+}
+.italic
+{
+    font-style: italic;
+}

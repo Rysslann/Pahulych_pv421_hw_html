@@ -1,0 +1,15 @@
+html{
+    font-family:Arial, Helvetica, sans-serif
+}
+h4{
+
+    font-weight: normal;
+}
+.red{
+color:brown
+}
+span{
+    background-color: lightgray;
+    font-weight:400;
+    font-size: 28px;    
+}
