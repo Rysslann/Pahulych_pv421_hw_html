@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(238, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    padding: 0 75px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px 0;
+}
+
+.odd {
+    background-color: #aeddf0; /* блакитний фон для непарних елементів */
+}
+
+.even {
+    background-color: #9dc7d8; /* блакитний фон для парних елементів */
+}
+
+.marked {
+    background-color: #cccccc; /* сірий фон для позначених елементів */
+}
+
+li::after {
+    content: "❌"; 
+    margin-left: 35px;
+}
+.marked-text {
+    text-decoration: line-through; 
+}
+img{
+    padding: 0 20px;
+}

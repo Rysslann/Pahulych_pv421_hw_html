@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+dl {
+    margin: 30px;
+}
+
+dt {
+    margin: 20px 0;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+p{
+    margin: 8px 0;
+}
+
+
+.raw-text {
+    color: gray;
+}
+
+
+.purple {
+    color:royalblue
+}
