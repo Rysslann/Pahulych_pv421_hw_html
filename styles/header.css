@@ -29,7 +29,6 @@
   }
   .header nav > ul > li > a {
     display: flex;
-    padding: 10px;
     text-decoration: none;
     color: #404040; 
     font-size: 14px;
@@ -49,11 +48,18 @@
   .header nav > ul > li:nth-last-child(2) > a {
     display: inline-flex;
     padding: 8px 24px;
+    margin-left: -8px;
     justify-content: center;
     align-items: center;
     gap: 8px;
     flex-shrink: 0;  
     border-radius: 30px;
     border: 1px solid var(--text, #404040);
+    font-size: 16px;
+    font-weight: 600;
   }
-  
+  .upLine{
+    fill: var(--text, #404040);
+    stroke-width: 1px;
+    stroke: var(--text, #404040);
+  }
