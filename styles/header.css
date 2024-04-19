@@ -27,22 +27,33 @@
     list-style: none;
     margin-left: 32px;
   }
-  
-  .header nav > ul > :last-child > a{
-      color: #FFFFFF;
-      padding: 19px 39px !important;
-      background: #27C1C2;
-      border-radius: 200px;
-  }
   .header nav > ul > li > a {
+    display: flex;
     padding: 10px;
     text-decoration: none;
-    color: var(--text, #404040);
-    font-family: Manrope;
+    color: #404040; 
     font-size: 14px;
     font-weight: 500;
   }
-  
-  .header nav > ul > li > a:hover {
-    color: #d56363 !important;
+  .header nav > ul > :last-child > a{
+    margin-left: -20px;
+    color: #FFFFFF;
+    background: #27C1C2;
+    border-radius: 20px;   
+    display: inline-flex;
+    padding: 4px 8px 4px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
   }
+  .header nav > ul > li:nth-last-child(2) > a {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;  
+    border-radius: 30px;
+    border: 1px solid var(--text, #404040);
+  }
+  
