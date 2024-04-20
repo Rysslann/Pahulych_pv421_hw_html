@@ -80,7 +80,7 @@ h3{
   }
   .consultation__item{
     padding: 16px;
-    max-width: 295px;
+    width: 295px;
     height: 240px;
     border-radius: 20px;
     background: #FFF;
