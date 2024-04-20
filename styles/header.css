@@ -58,7 +58,7 @@
     font-size: 16px;
     font-weight: 600;
   }
-  .upLine{
+  .up-line{
     fill: var(--text, #404040);
     stroke-width: 1px;
     stroke: var(--text, #404040);
