@@ -313,3 +313,181 @@ h3{
     top: -82px;
     left: 170px;
   }
+  @media screen and (max-width: 1140px) {
+    h3{
+      font-size: 32px;
+    }
+    .consultation__item h4{
+      font-size: 16px;
+    }
+    .consultation__item p{
+      font-size: 12px;
+    }
+    .about__main-text, .about__second{
+      font-size: 14px;
+    }
+    .about__image img {
+      width: 100%;
+    }
+    .about__row img {
+      width: 100px;
+    }
+    .about__image{
+      width: 100%;
+    }
+    .about__left {
+      max-width: 70%;
+    }
+ 
+}
+@media screen and (max-width: 1040px) {
+  .consultation__items{
+  top: 0;
+  }
+  .package__info{
+    width: 220px;
+  }
+  .packages__row{
+    justify-content: space-evenly;
+    padding:  0 25px;
+  }
+  footer .footer__info__nav__first > ul{
+    margin: 0;
+  }
+  footer .footer__info__nav__first > ul{
+    margin-right: 0;
+  }
+  footer .footer__info__nav__second > ul{
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 815px) {
+ .consultation{
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+ }
+}
+@media screen and (max-width: 680px) {
+  .about{
+    padding: 20px;
+  }
+  .about__items{
+    flex-wrap: wrap;
+  }
+  .about__left{
+    max-width: 100%;
+    width: 100%;
+  }
+  .about__row img{
+    width: 100%;
+  }
+  .about__right{
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .doctors{
+    margin-left: 0;
+    padding: 20px;
+  }
+  .consultation__items{
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  .packages__row{
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  .doctor__name{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .about__row img {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .consultation__sign {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about__right .general-button{
+    margin: 0;
+  }
+  .consultation__buttons{
+    left: 10px;
+    bottom: 40px;
+    width: 100px;
+  }
+  .consultation__buttons button{
+    width: 40px;
+    height: 40px;
+  }
+  .consultation__sign h4{
+    width: 269px;
+  }
+  .consultation__sign{
+    justify-content: flex-end;
+  }
+  .consultation__left{
+    padding:  0 20px;
+  }
+  .consultation__item p {
+    display: none;
+  }
+  .consultation__items{
+    margin-top: 40px;
+    top: 0;
+    flex-direction: column;
+  }
+  .consultation__item {
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 75%;
+    margin: 10px 40px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+  .consultation__item img {
+    position: absolute;
+    left: -30px;
+    top: 2px;
+  }
+  .result {
+    margin-top: 50px;
+    padding:  0 20px;
+  }
+  .result__item2{
+    display: none;
+  }
+  .result__item h6{
+    font-size: 16px;
+  }
+  .result__item p{
+    font-size: 14px;
+  }
+  .about {
+    margin-top: 30px;
+  }
+  .doctors {
+    margin-top: 30px;
+  }
+  .doctor__info {
+    font-size: 16px;
+  }
+  .packages{
+    padding: 0 20px;
+  }
+  .packages h3{
+   text-align: center;
+  }
+  .package__info {
+    width: 100%;
+  }
+  .packages__row{
+    padding: 0;
+  }
+}

@@ -91,6 +91,7 @@
     margin-top: 16px;
     display: flex;
     gap: 16px;
+    justify-content: space-between;
   }
   .footer__info__communication__call{
     margin-top: 33px;
@@ -110,5 +111,105 @@
     font-size: 16px;
     font-weight: 600;
 }
-
-  
+.powered{
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .footer__info{
+    margin: 0 0 20px 0;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .footer, .footer__info {
+    margin: 0;
+  }
+  .footer__info{
+    justify-content: space-between;
+    padding:  0 20px;
+  }
+  .footer__info__communication__call{
+    padding:  5px 0;
+  }
+  .footer__info_logo > img {
+    width: 100%;
+  }
+  .footer__info_logo > img{
+    margin: 0;
+  }
+} 
+@media screen and (max-width: 815px) {
+  .footer__info__communication{
+  display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer__info{
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .footer__down-line {
+    margin: 56px 20px 0px
+  }
+  .footer__info__link{
+    width: 100%;
+  }
+  .footer__info__link_video{
+    min-width: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__info__link__social{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  .footer__info__communication{
+    display: block;
+  }
+  .footer__info__nav__first > ul li:last-child{
+    margin: 0;
+  }
+  .footer__info__nav__second > ul{
+    margin-top: 0;
+  }
+  .footer__info__nav__second {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__info__communication__contact{
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer__info__nav__second{
+    width: 100%;
+    margin-top: 15px;
+  }
+  .footer__info__nav__first > ul > li{
+    text-align: center;
+  }
+  footer .footer__info__nav__second > ul{
+    text-align: center;
+  }
+  .footer__info__communication__call{
+    padding: 16px 90px;
+    margin-top: 20px;
+  }
+  .footer__info__communication__messengers{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 170px;
+  }
+  .footer__info__nav__first{
+    margin-top: 20px;
+  }
+  .powered{
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+  }
+}
