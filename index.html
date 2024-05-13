@@ -11,89 +11,89 @@
 
 <body>
 	<header>
-	<div class="header">
-		
-		<div class="header__screen">
-			<div class="header__container container">
-				<div class="header__menu menu">
-					<div class="menu__block ">
-						<div class="menu__logo">
-							<a href=""> <img src="img/menu-logo.png" alt=""></a>
-						</div>
-						<div class="menu__name">
-							<a href=""> <img src="img/menu-name.png" alt=""></a>
-						</div>
-						<ul class="menu__items menu">
-							<li class="menu__about">
-								<a data-goto=" .photo__blockes" class="menu__link" href="#">About</a>
-							</li>
-							<li class="menu__news">
-								<a data-goto=".bridg__blockes" class="menu__link" href="#">News</a>
-							</li>
-							<li class="menu__music">
-								<a data-goto=".wrapper__container2" class="menu__link" href="#">Music</a>
-							</li>
-							<li class="menu__media">
-								<a data-goto=".images__container" class="menu__link" href="#">Media</a>
-							</li>
-							<li class="menu__tours">
-								<a data-goto=".photo-slider" class="menu__link" href="#">Tours</a>
-							</li>
-							<li class="menu__contacts">
-								<a data-goto=".footer " class="menu__link" href="#">Contacts</a>
-							</li>
-						</ul>
-						<div onclick=toggleMenu() class="menu__icon">
-							<span></span>
-						</div>
-					</div>
-					<div class="header__subtitle">
-						New Single
-					</div>
-					<div class="header__title">
-						War For Love
-					</div>
-					<div class="header__music">
+		<div class="header">
 
+			<div class="header__screen">
+				<div class="header__container container">
+					<div class="header__menu menu">
+						<div class="menu__block ">
+							<div class="menu__logo">
+								<a href="/"> <img src="img/menu-logo.png" alt=""></a>
+							</div>
+							<div class="menu__name">
+								<a href="/"> <img src="img/menu-name.png" alt=""></a>
+							</div>
+							<ul class="menu__items menu">
+								<li class="menu__about">
+									<a data-goto=" .photo__blockes" class="menu__link" href="/">About</a>
+								</li>
+								<li class="menu__news">
+									<a data-goto=".bridg__blockes" class="menu__link" href="/">News</a>
+								</li>
+								<li class="menu__music">
+									<a data-goto=".wrapper__container2" class="menu__link" href="/">Music</a>
+								</li>
+								<li class="menu__media">
+									<a data-goto=".images__container" class="menu__link" href="/">Media</a>
+								</li>
+								<li class="menu__tours">
+									<a data-goto=".photo-slider" class="menu__link" href="/">Tours</a>
+								</li>
+								<li class="menu__contacts">
+									<a data-goto=".footer " class="menu__link" href="/">Contacts</a>
+								</li>
+							</ul>
+							<div onclick=toggleMenu() class="menu__icon">
+								<span></span>
+							</div>
+						</div>
+						<div class="header__subtitle">
+							New Single
+						</div>
+						<div class="header__title">
+							War For Love
+						</div>
+						<div class="header__music">
+
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="header__video video">
-				<div class="video">
-					<img class="video__item" src="img/foter.png" alt="">
+				<div class="header__video video">
+					<div class="video">
+						<img class="video__item" src="img/foter.png" alt="">
+					</div>
 				</div>
+
 			</div>
 
 		</div>
-
-	</div>
-</header>
+	</header>
 	<main>
 		<section>
 			<div class="main__background">
 				<div class="main__container container">
 					<div class="photo__blockes block">
-						<div class="block__working ">
+						<a href="/" class="block__working ">
 							<img class="block__img" src="img/first.png" alt="">
 							<div class="block__img-text">
 								Working on my upcoming full-lenth
 								album
 							</div>
-						</div>
-						<div class="block__hollowen">
+						</a>
+						<a href="/" class="block__hollowen">
 							<img class="block__img" src="img/second.png" alt="">
 							<div class="block__img-text">
 								Halloween vibes.
 								Listen my new track!
 							</div>
-						</div>
-						<div class="block__warforlove">
+						</a>
+						<a href="/" class="block__warforlove">
 							<img class="block__img" src="img/third.png" alt="">
 							<div class="block__img-text">
 								WarForLove is OUT NOW!!
 								Stream it here!
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="bridg__blockes">
 						<div class="bridg__left">
@@ -187,8 +187,8 @@
 				<div class="main__container container">
 					<div class="container3__wrapper images">
 						<div class="images__container">
-							<div class="images__left"><img src="img/left.png" alt=""></div>
-							<div class="images__center">
+							<a href="/" class="images__left"><img src="img/left.png" alt=""></a>
+							<a href="/" class="images__center">
 								<div class="images__center-top center__top">
 									<div class="center__top-left"><img src="img/center-left.png" alt=""></div>
 									<div class="center__top-right"><img src="img/center-right.png" alt=""></div>
@@ -196,8 +196,8 @@
 								<div class="images__center-bottom">
 									<img src="img/concert.jpg" alt="">
 								</div>
-							</div>
-							<div class="images__right"><img src="img/right.png" alt=""></div>
+							</a>
+							<a href="/" class="images__right"><img src="img/right.png" alt=""></a>
 							<div class="image__telephone">
 								<div class="image__telephone-left">
 									<img src="img/left.png" alt="">
@@ -214,81 +214,106 @@
 		<div class="main__background">
 			<div class="main__container container">
 				<section class="form container">
-					<form>
-						  <legend>Response</legend>
-						 <div>
-							<label for="form_name">Name</label>
-							<input type="text" id="form_name" name="first_name" placeholder="Enter your name...">
-						  </div>
-						  <div>
-							<label for="form_name">Response</label>
-							<textarea name="comment" id="comment"  placeholder="Please add comment..."></textarea>
-						  </div>
+					<div class="send__comment">
+						<form id="form" class="send__form" action="/-server-endpoint" method="post">
+							<h4>Send us a message</h4>
+							<div class="top__data">
+								<div>
+									<input type="text" id="name" name="name" placeholder="Name" required>
+								</div>
+								<div>
+									<input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+								</div>
+							</div>
+							<div>
+								<textarea type="text" id="message" name="message" placeholder="Message / Сomment"
+									required></textarea>
+							</div>
+							<div>
+								<button id="submit-button" type="submit">Send</button>
+							</div>
 						</form>
+						<div class="contacts__form">
+							<div class="contacts__data">
+								<h4>Contacts</h4>
+								<ul>
+									<li><span>Сompany:</span> Ryslan</li>
+									<li><span>Address:</span> <a href="https://maps.app.goo.gl/f7TP64n9PbJEKoAZ6">5830 E 2nd St,
+											Ste
+											7000,
+											Casper, Wyoming 82609 Us</a></li>
+									<li><span>Phone:</span> <a href="tel:+380660727541">+380636257660</a></li>
+									<li><span>Email:</span> <a href="ryslan10836@gmail.com">ryslan10836@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<h4 id="response"></h4>
+					</div>
+
 				</section>
 			</div>
 		</div>
 	</main>
 	<footer>
-	<div class="main__background">
-		<div class="main__container container">
-			<div class="footer">
-				<div class="footer__top">
-					<div class="footer__top-img1"><img src="img/menu-logo.png" alt=""></div>
-					<div class="footer__top-img2"><img src="img/menu-name.png" alt=""></div>
-				</div>
-				<div class="footer__midel">
-					<div class="artist">
-						Artist Management: <span> Jake Henny</span>
+		<div class="main__background">
+			<div class="main__container container">
+				<div class="footer">
+					<div class="footer__top">
+						<div class="footer__top-img1"><img src="img/menu-logo.png" alt=""></div>
+						<div class="footer__top-img2"><img src="img/menu-name.png" alt=""></div>
 					</div>
-					<div class="email">
-						<a href="mailto:oleh10836@gmail.com" class="email"> EMAIL: <span>jake@official.com</span> </a>
+					<div class="footer__midel">
+						<div class="artist">
+							Artist Management: <span> Jake Henny</span>
+						</div>
+						<div class="email">
+							<a href="mailto:oleh10836@gmail.com" class="email"> EMAIL: <span>jake@official.com</span> </a>
+						</div>
 					</div>
-				</div>
-				<div class="footer__link">
-					<div class="link__1">
-						<a href="https://example.com" target="_blank">
-							<img src="img/link-1.png" alt="Опис зображення">
-						</a>
+					<div class="footer__link">
+						<div class="link__1">
+							<a href="https://example.com" target="_blank">
+								<img src="img/link-1.png" alt="Опис зображення">
+							</a>
+						</div>
+						<div class="link__2">
+							<a href="https://example.com/link2" target="_blank">
+								<img src="img/link-2.png" alt="Опис зображення 2">
+							</a>
+						</div>
+
+						<div class="link__3">
+							<a href="https://example.com/link3" target="_blank">
+								<img src="img/link-3.png" alt="Опис зображення 3">
+							</a>
+						</div>
+
+						<div class="link__4">
+							<a href="https://example.com/link4" target="_blank">
+								<img src="img/link-4.png" alt="Опис зображення 4">
+							</a>
+						</div>
+
+						<div class="link__5">
+							<a href="https://example.com/link5" target="_blank">
+								<img src="img/link-5.png" alt="Опис зображення 5">
+							</a>
+						</div>
+
+						<div class="link__6">
+							<a href="https://example.com/link6" target="_blank">
+								<img src="img/link-6.png" alt="Опис зображення 6">
+							</a>
+						</div>
 					</div>
-					<div class="link__2">
-						<a href="https://example.com/link2" target="_blank">
-							<img src="img/link-2.png" alt="Опис зображення 2">
-						</a>
+					<div class="footer__bottom">
+						© 2020 DJ bright lights.
 					</div>
-					
-					<div class="link__3">
-						<a href="https://example.com/link3" target="_blank">
-							<img src="img/link-3.png" alt="Опис зображення 3">
-						</a>
-					</div>
-					
-					<div class="link__4">
-						<a href="https://example.com/link4" target="_blank">
-							<img src="img/link-4.png" alt="Опис зображення 4">
-						</a>
-					</div>
-					
-					<div class="link__5">
-						<a href="https://example.com/link5" target="_blank">
-							<img src="img/link-5.png" alt="Опис зображення 5">
-						</a>
-					</div>
-					
-					<div class="link__6">
-						<a href="https://example.com/link6" target="_blank">
-							<img src="img/link-6.png" alt="Опис зображення 6">
-						</a>
-					</div>
-				</div>
-				<div class="footer__bottom">
-					© 2020 DJ bright lights.
 				</div>
 			</div>
 		</div>
-	</div>
-</footer>
-<script src="./scripts/index.js"></script>
+	</footer>
+	<script src="./scripts/index.js"></script>
 </body>
 
 </html>
